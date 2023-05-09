@@ -34,27 +34,27 @@ CloakSys:Frame()
 
 $On Key Released:
 [
-	CloakSys:KeyRelease()
+CloakSys:KeyRelease()
 ]
 
 $On Mission End:
 [
-	CloakSys:MissionEnd()
+CloakSys:MissionEnd()
 ]
 
 $On Ship Death:
 [
-	CloakSys:ShipDeath()
+CloakSys:ShipDeath()
 ]
 
 $On Weapon Fired:
 [
-	CloakSys:WeaponFire()
+CloakSys:WeaponFire()
 ]
 
 $On Afterburner Engage:
 [
-	CloakSys:Afterburn()
+CloakSys:Afterburn()
 ]
 
 $Weapon class: Cloaking Device
@@ -65,7 +65,7 @@ CloakSys:FireCloakWeapon()
 
 $On Weapon Selected:
 [
-	CloakSys:SelectCloakWeapon()
+CloakSys:SelectCloakWeapon()
 ]
 
 #End
